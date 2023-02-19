@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liste de courses</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Liste de courses</h1>
+        <div class="centerBlock">
+            <label>Ajouter un élément dans la liste: </label>
+            <input type="text" id="addElement">
+            <button id="addList">+</button>
+        </div>
+        <div class="blockCenter">
+            <ul id="shoppingList"></ul>
+        </div>
+        <div class="deleteCenter">
+            <label>Entrer le numéro de l'élément à supprimer dans la liste: </label>
+            <input type="number" id="deleteElement">
+            <button id="deleteList">delete</button>
+        </div>
+
+        <div class="centerBlock updateCenter">
+            <label>Choisir le numéro de l'élément à modifier: </label>
+            <input type="number" id="updateElement">
+        </div>
+        <div class="centerBlock">
+            <label>Modifier l'élément: </label>
+            <input type="text" id="update">
+            <button id="updateList">modifier</button>
+        </div>
+    </div>
+        
+        <script src="js/app.js"></script>
+</body>
+</html>
